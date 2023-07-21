@@ -1,0 +1,132 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+.header{
+    background-image: url(../img/bg-color.jpg);
+    color: #fff;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* styling content on index, about and contact page*/
+.h-container{
+    background-image: url(../img/gbeng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 500px;
+}
+/* styling content in index page*/
+.h-main{
+    position: relative;
+    top: 200px;
+    color: #fff;
+}
+/*styling content in about page*/
+.a-main{
+    color: #fff;
+    tsext-align: center;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+.a-main p{
+    text-align: justify;
+}
+.about img{
+    float: right;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: -50px;
+}
+.a-main ul li{
+    list-style-type: none;
+}
+.about h1, h2{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 30px;
+    border-spacing: 0.5px;
+}
+.about h1:hover{
+    background-color: #fff;
+    color: #333;
+}
+.about h2:hover{
+    background-color: #fff;
+    color: #333;
+}
+.about ul{
+    padding: 0;
+}
+.main{
+    margin: 20px;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;    
+}
+ul{
+    margin-top: 10px;
+}
+/* styling content in contact page*/
+.c-main{
+    text-align: center;
+}
+form input, form textarea{
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-top: 10px;
+}
+form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/*styling the social media handles*/
+.s-media li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.s-media li a img{
+    width: 50px;
+    height: 50px;
+}
+/*Styling socail media handle on index page*/
+.media{
+    position: relative;
+    top: 270px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+        margisn: 10px;
+        paddsing: 25px;
+    }
+}
